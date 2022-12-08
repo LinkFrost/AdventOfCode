@@ -18,6 +18,8 @@ for line in input_lines:
       else:
         directory[parent_dirs] += int(line.split()[0])
 
+print(directory)
+
 part_one = 0
 
 used = 70000000 - directory["/"]
